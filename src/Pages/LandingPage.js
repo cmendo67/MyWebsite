@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
-import {Jumbotron,Image} from 'react-bootstrap';
-
-class LandingPage extends Component{
-    render(){
+import {Image} from 'react-bootstrap';
+import Footer from '../Components/Footer';
+import './landingpage.css';
+const LandingPage = () =>{
         return(
-            <div className="container">
+            <div className="background">
+                <h1 className="fonth">Welcome</h1>
+                <p className="paragraph">Hello my name is Carlos Mendoza and welcome to My Website.</p>
+             <div className="container">
                 <div className="row">
                     <div className="col">
                         <Image className="images" src="https://cdn4.iconfinder.com/data/icons/web-and-seo-21/65/1010-512.png" rounded height="200px" />
@@ -47,8 +50,9 @@ class LandingPage extends Component{
                     </div>
                 </div>
               </div>
+              <Footer/>
+             </div>
         )
-    }
 }
 
 export default LandingPage;

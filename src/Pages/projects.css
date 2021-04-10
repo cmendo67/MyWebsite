@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+.botronimage{
+    background: url("https://getwallpapers.com/wallpaper/full/7/c/a/359043.jpg") ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    text-align:center;
+}
+.botroncolor{
+    background-color: rgb(37, 37, 37);
+}
+.projectbg{
+    background: linear-gradient(150deg, orange,#353b48,#0d47a1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.paragraph{
+    font-size:30px;
+    font-weight: bolder;
+    color:#e3f2fd;
+}
+  .fonth{
+    font-family: "Anton";
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+}
+.cardparagraph{
+    font-size:15px;
+    font-weight: bolder;
+    color:#e3f2fd;
+}
+.cardimage{
+    height: 150px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.projecticons{
+    justify-content: space-evenly;
+}
+.cardcolor{
+    background-color:black;
+    text-align:center;
+    
+}
+.cardcolor2{
+    background-color:#353b48;
+    text-align:center;
+    
+}
+.cardcolor3{
+    background-color:black;
+    text-align:center;
+    
+}
+.icon{
+    width:100px;
+    height:100px;
+    color:black;
+}
+.spotifycolor{
+    color:#31ee2a;
+}
+.awscolor{
+    color:orange;
+}
+.fusioncolor{
+    color:green;
+}
+.odassycolor{
+    color:#0eb8e2;
+}
+.projectcardecks{
+    margin:10px 10px 0px 10px;
+    justify-content: center;
+}
+
+.carddimension{
+    max-width: 500px;
+    height: 500px;   
+}
+#eatcolor{
+    color:rgb(245, 245, 59);
+    text-align:center;
+
+}
+#sleepcolor{
+    color:rgb(69, 216, 69);
+    text-align:center;
+
+}
+#codecolor{
+    color:rgb(45, 136, 221);
+    text-align:center;
+
+}
+#repeatcolor{
+    color:rgb(218, 55, 55);
+    text-align:center;
+
+}
+#icontext{
+    padding-top: 10px;
+    color:white;
+    text-align:center;
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Source Code Pro', monospace;
+}
+

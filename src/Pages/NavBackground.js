@@ -7,7 +7,7 @@ const Styles = styled.div`
         background: url("https://getwallpapers.com/wallpaper/full/7/c/a/359043.jpg") no-repeat fixed bottom;
         color:white;
         position:relative;
-        z-index:-2;
+        z-index:0;
         padding-bottom:5rem;
         margin-bottom: 0px;
     }
@@ -31,8 +31,8 @@ const Styles = styled.div`
         color:#e3f2fd ;
     }
 `;
-export const NavBackground = () =>(
-    
+const NavBackground = () =>{
+    return(
     <Styles>
         <Jumbo fluid className="jumbo">
             <div className="overlay"/>
@@ -43,4 +43,6 @@ export const NavBackground = () =>(
             
         </Jumbo>
     </Styles>
-)
+    )
+}
+export default NavBackground;

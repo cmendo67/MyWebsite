@@ -1,28 +1,22 @@
 import './App.css';
-import React, {Component} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {Layout,Header, Navigation, Drawer, Content} from 'react-mdl';
-import Main from './Components/Main';
-import {Link} from 'react-router-dom';
-import { NavigationBar } from './Components/NavigationBar';
-import { NavBackground } from './Components/NavBackground';
-import './Components/main.css';
-import Footer from './Components/Footer.js'
+import NavigationBar  from './Components/NavigationBar';
+import About from './Pages/About';
+import Projects from './Pages/Projects';
+import LandingPage from './Pages/LandingPage';
 
 function App() {
   return (
-      <React.Fragment>
-        <NavigationBar/>
-        <NavBackground/>
-        <div className="bg">
-        <Layout>
-        <Router>
-          <Main/>
-        </Router>
-        </Layout>
-        </div>
-        <Footer/>
-      </React.Fragment>
+          <Router>
+            <NavigationBar/>
+            <Switch>
+                <Route exact path="/" component={LandingPage}/>
+                <Route path="/About" component={About}/>
+                <Route path="/Projects" component={Projects}/>
+                <Route path="/Resume"/>
+             </Switch>
+          </Router>
   );
 }
 
