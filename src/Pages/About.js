@@ -36,7 +36,7 @@ const About = () =>{
                     <ProgressBar className="aboutprogressbar" animated now={40} />
 
                     <span id="iconcolor">
-                    <p className="paragraphskills">C++ <i class="fab fa-python fa-2x"></i></p>   
+                    <p className="paragraphskills">C++</p>   
                     </span>
                     <ProgressBar  className="aboutprogressbar" animated now={40} />
 
