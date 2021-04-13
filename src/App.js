@@ -11,8 +11,8 @@ function App() {
           <Router>
             <NavigationBar/>
             <Switch>
-                <Route exact path="/" component={LandingPage}/>
-                <Route path="/About" component={About}/>
+                <Route exact path="/" component={About}/>
+                {/* <Route path="/About" component={About}/> */}
                 <Route path="/Projects" component={Projects}/>
                 <Route path="/Resume"/>
              </Switch>

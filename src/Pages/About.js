@@ -1,12 +1,33 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import {Jumbotron as Jumbo, Container, Image, Row, Spinner, ProgressBar} from 'react-bootstrap';
+import {Jumbotron as Jumbo, Container, Image, Row, ProgressBar, Col, Figure} from 'react-bootstrap';
 import Footer from '../Components/Footer.js';
 import './about.css';
 import carlos from '../Components/images/git_hub.jpg';
+import Typical from 'react-typical'
+
 const About = () =>{
         return(
             <div className="backgroundimage">
+
+                <div>
+                    {/* <h1 className="pagetitle">Bienvenidos</h1> */}
+                    <p > 
+                    {''}
+                    <Typical className="pagetitle"
+                    loop={Infinity}
+                    wrapper="p"
+                    steps={[
+                        'Welcome!!', 
+                         2000,
+                         'Bienvenido!!', 
+                         2000
+                        ]}
+
+                    />
+                    </p>
+                    <p className="introtext">My name is <span id ="namecolor">Carlos Mendoza</span> and welcome to My Website.</p>
+                </div>
                 <Jumbo className="aboutbotron">
                     <Container className="aboutcontainer">
                         <Image roundedCircle id="carlosimage" src={carlos}/>
@@ -19,41 +40,169 @@ const About = () =>{
 
                 <Jumbo className="jumbotron">
                     <Container>
-                    <p id="jumbotrontitle">Programming languages</p>
-                    <span id="iconcolor">
-                    <p className="paragraphskills">Java <i class="fab fa-java fa-2x"></i> </p>
-                    </span>
-                    <ProgressBar className="aboutprogressbar "  animated now={90} />
+                     <p id="jumbotrontitle">Programming Skills</p>
+                    <Row className="programmingrow1">
+                    <Col className='figure-container' sm>
+                        <div className='flip-figure'>
+                            <div className='flip-figure-inner'>
+                            <div className='flip-figure-front'>
+                                <Figure className="members-container">
+                                <Figure.Image
+                                    className="members-img"
+                                    width={171}
+                                    height={180}
+                                    alt="171x180"
+                                     src="https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png"
+                                />
+                               
+                             </Figure>
+                             </div>
+                            <div className='flip-figure-back'>
+                                <div className='flip-figure-back-content'>
+                                    
+                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <i class="fas fa-laugh-beam fa-5x"></i>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </Col>
 
-                    <span id="iconcolor">
-                    <p className="paragraphskills">Javascript <i class="fab fa-js fa-2x"></i></p>                
-                    </span>
-                    <ProgressBar className="aboutprogressbar" animated now={70} />
+                    <Col className='figure-container' sm>
+                        <div className='flip-figure'>
+                            <div className='flip-figure-inner'>
+                            <div className='flip-figure-front'>
+                                <Figure className="members-container">
+                                <Figure.Image
+                                    className="members-img"
+                                    width={100}
+                                    height={80}
+                                    alt="171x180"
+                                     src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                                />
+                               
+                             </Figure>
+                             </div>
+                            <div className='flip-figure-back'>
+                                <div className='flip-figure-back-content'>
+                                    
+                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <i class="fas fa-laugh-beam fa-5x"></i>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </Col>
 
-                    <span id="iconcolor">
-                    <p className="paragraphskills">Python <i class="fab fa-python fa-2x"></i></p>   
-                    </span>
-                    <ProgressBar className="aboutprogressbar" animated now={40} />
-
-                    <span id="iconcolor">
-                    <p className="paragraphskills">C++</p>   
-                    </span>
-                    <ProgressBar  className="aboutprogressbar" animated now={40} />
-
-
-                    <span id="iconcolor">
-                    <p className="paragraphskills">html5 <i class="fab fa-html5 fa-2x"></i></p>                   
-                    </span>
-                    <ProgressBar className="aboutprogressbar" animated now={90} />
-
-                    <span id="iconcolor">
-                    <p className="paragraphskills">css <i class="fab fa-css3-alt fa-2x"></i></p>
-                    </span>
-                    <ProgressBar className="aboutprogressbar" animated now={90} />
-
+                    <Col className='figure-container' sm>
+                        <div className='flip-figure'>
+                            <div className='flip-figure-inner'>
+                            <div className='flip-figure-front'>
+                                <Figure className="members-container">
+                                <Figure.Image
+                                    className="members-img"
+                                    width={100}
+                                    height={90}
+                                    alt="171x180"
+                                     src="http://assets.stickpng.com/images/5848152fcef1014c0b5e4967.png"
+                                />
+                               
+                             </Figure>
+                             </div>
+                            <div className='flip-figure-back'>
+                                <div className='flip-figure-back-content'>
+                                    
+                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <i class="fas fa-laugh-beam fa-5x"></i>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </Col>
+                    </Row>
                     
+                    <Row className="programmingrow2">
+                    <Col className='figure-container' sm>
+                        <div className='flip-figure'>
+                            <div className='flip-figure-inner'>
+                            <div className='flip-figure-front'>
+                                <Figure className="members-container">
+                                <Figure.Image
+                                    className="members-img"
+                                    width={100}
+                                    height={90}
+                                    alt="171x180"
+                                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png"
+                                />
+                               
+                             </Figure>
+                             </div>
+                            <div className='flip-figure-back'>
+                                <div className='flip-figure-back-content'>
+                                    
+                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <i class="fas fa-laugh-beam fa-5x"></i>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col className='figure-container' sm>
+                        <div className='flip-figure'>
+                            <div className='flip-figure-inner'>
+                            <div className='flip-figure-front'>
+                                <Figure className="members-container">
+                                <Figure.Image
+                                    className="members-img"
+                                    width={130}
+                                    height={100}
+                                    alt="171x180"
+                                     src="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png"
+                                />
+                               
+                             </Figure>
+                             </div>
+                            <div className='flip-figure-back'>
+                                <div className='flip-figure-back-content'>
+                                    
+                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <i class="fas fa-laugh-beam fa-5x"></i>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </Col>
+
+                    <Col className='figure-container' sm>
+
+                        <div className='flip-figure'>
+                            <div className='flip-figure-inner'>
+                            <div className='flip-figure-front'>
+                                <Figure className="members-container">
+                                <Figure.Image
+                                    className="members-img"
+                                    width={171}
+                                    height={180}
+                                    alt="171x180"
+                                     src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo.png"
+                                />
+                               
+                             </Figure>
+                             </div>
+                            <div className='flip-figure-back'>
+                                <div className='flip-figure-back-content'>
+                                    
+                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <i class="fas fa-laugh-beam fa-5x"></i>
+                                </div>
+                             </div>
+                            </div>
+                        </div>
+                    </Col>
+                    </Row>
                     </Container>
-                  
+
                 </Jumbo>
 
                 <Jumbo className="techbotron">
@@ -84,7 +233,6 @@ const About = () =>{
                 </Jumbo>
                     <Footer/>
                 </div>
-
         )
     }
 export default About;
