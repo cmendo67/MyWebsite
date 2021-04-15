@@ -11,7 +11,7 @@ const NavigationBar = () =>{
         {/* <Nav.Link id="navlink" href="/">Home</Nav.Link> */}
         <Nav.Link id="navlink" href="/">Home</Nav.Link>
         <Nav.Link id="navlink" href="/Projects">Projects</Nav.Link>
-        <Nav.Link id="navlink" href="https://drive.google.com/file/d/1o1vvM5RjPV7if1h4aw6MJiMRumKPmAZn/view?usp=sharing">Resume</Nav.Link>
+        <Nav.Link id="navlink" href="https://drive.google.com/file/d/16LcSQYztFYR4b1d9P2T7jzLX6dJqdgaJ/view?usp=sharing">Resume</Nav.Link>
      </Nav>
     </Navbar.Collapse>
     </Navbar>
