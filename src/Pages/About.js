@@ -5,7 +5,7 @@ import Footer from '../Components/Footer.js';
 import './about.css';
 import carlos from '../Components/images/git_hub.jpg';
 import Typical from 'react-typical'
-
+import pebble from '../Components/images/pebble.png'
 const About = () =>{
         return(
             <div className="backgroundimage">
@@ -228,6 +228,7 @@ const About = () =>{
 
                         <Image src="https://logodownload.org/wp-content/uploads/2016/10/mysql-logo.png" height="150x" width="200px"/>
                         <Image src="https://th.bing.com/th/id/R17d502cf086bde53ea08f064a31f273c?rik=A2Cq8N9S0uORPg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-0T-xa8wffLU%2fU_-eoMjIo9I%2fAAAAAAAAEVY%2f6Fn5-9QAcmI%2fs1600%2fspring-boot-project-logo.png&ehk=utqU5gHAmkTtXlwIGpqItzRWZ7qY2xT8LgGTExmio%2bI%3d&risl=&pid=ImgRaw" height="150x" width="150px"/>
+                        <Image src={pebble} alt="pebble"/>
                         </Row>
                     </Container>
                 </Jumbo>
