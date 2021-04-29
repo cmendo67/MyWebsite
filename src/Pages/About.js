@@ -38,7 +38,7 @@ const About = () =>{
                     </Container>
                 </Jumbo>
 
-                <Jumbo className="jumbotron">
+                <Jumbo className="jumbotron_configuration">
                     <Container>
                      <p id="jumbotrontitle">Programming Skills</p>
                     <Row className="programmingrow1">
@@ -60,7 +60,7 @@ const About = () =>{
                             <div className='flip-figure-back'>
                                 <div className='flip-figure-back-content'>
                                     
-                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <p className='flip-figure-back-text '>Java is my main programming language</p>
                                     <i class="fas fa-laugh-beam fa-5x"></i>
                                 </div>
                              </div>
@@ -86,7 +86,7 @@ const About = () =>{
                             <div className='flip-figure-back'>
                                 <div className='flip-figure-back-content'>
                                     
-                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <p className='flip-figure-back-text '>JavaScript is a scripting language</p>
                                     <i class="fas fa-laugh-beam fa-5x"></i>
                                 </div>
                              </div>
@@ -112,7 +112,7 @@ const About = () =>{
                             <div className='flip-figure-back'>
                                 <div className='flip-figure-back-content'>
                                     
-                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <p className='flip-figure-back-text '>High-Level-Programming language</p>
                                     <i class="fas fa-laugh-beam fa-5x"></i>
                                 </div>
                              </div>
@@ -140,7 +140,7 @@ const About = () =>{
                             <div className='flip-figure-back'>
                                 <div className='flip-figure-back-content'>
                                     
-                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <p className='flip-figure-back-text '>Powerful general-purpose programming language</p>
                                     <i class="fas fa-laugh-beam fa-5x"></i>
                                 </div>
                              </div>
@@ -158,7 +158,7 @@ const About = () =>{
                                     width={130}
                                     height={100}
                                     alt="171x180"
-                                     src="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png"
+                                     src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
                                 />
                                
                              </Figure>
@@ -166,7 +166,7 @@ const About = () =>{
                             <div className='flip-figure-back'>
                                 <div className='flip-figure-back-content'>
                                     
-                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <p className='flip-figure-back-text '>Hyper Text Markup Language</p>
                                     <i class="fas fa-laugh-beam fa-5x"></i>
                                 </div>
                              </div>
@@ -193,7 +193,7 @@ const About = () =>{
                             <div className='flip-figure-back'>
                                 <div className='flip-figure-back-content'>
                                     
-                                    <p className='flip-figure-back-text '>Main programming language</p>
+                                    <p className='flip-figure-back-text '>Cascading Style Sheets</p>
                                     <i class="fas fa-laugh-beam fa-5x"></i>
                                 </div>
                              </div>

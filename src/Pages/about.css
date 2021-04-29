@@ -8,7 +8,7 @@
     color:white;
     font-family: 'Source Code Pro', monospace;
 }
-.jumbotron{
+.jumbotron_configuration{
     width:70%;
     height:450px;
     background-color:black;
@@ -181,13 +181,12 @@
    /* Style the back side */ *
   .flip-figure-back {
     border-radius: 50%;
-    color: rgb(0, 0, 0);
+    color: white;
     transform: rotateY(180deg);
-    background:red;
+    background:black;
       background-size: 200% 200%;
       animation: gradient 15s ease infinite;
   }
-
   .flip-figure-back-content {
     margin-top: 25%;
   }
